@@ -1,0 +1,10 @@
+<?php
+
+include_once('atriumed_homework.features.inc');
+
+/**
+* Implementation of hook_init().
+*/
+function atriumed_homework_init() {
+  drupal_add_css(drupal_get_path('module', 'atriumed_homework') .'/atriumed_homework.css');
+}

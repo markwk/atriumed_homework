@@ -1,0 +1,22 @@
+#features-menu li a.icon-homework span.icon {
+  background:url(images/assignment.png) no-repeat;
+}
+
+.feature .feature-atriumed_homework {
+  background:transparent url(images/assignment-icon.png) no-repeat;
+}
+
+/*Not Working? */
+#feature-atriumed_homework {
+  background:url(images/homework-icon.png) no-repeat; height:20px; width:20px; 
+}
+
+span.spaces-feature.feature-atriumed_homework {
+  background:url(images/assignment-icon.png) no-repeat; height:20px; width:20px; 
+}
+
+#assignment-header {
+	font-size: 18px;
+	font-weight: normal;
+	text-shadow: white 0px 1px 0px;
+}

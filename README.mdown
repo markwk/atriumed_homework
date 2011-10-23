@@ -1,0 +1,13 @@
+# AtriumED Homework
+========================
+## Basic Functions:
+* Provides a simple way to create assignments as file submissions within OpenAtrium Groups
+* Teacher creates an assignment, from which students can then add their files as submissions
+* File Submission uses the new Filedrop module: http://drupal.org/projects/filedrop. 
+
+## Alternative:
+* This feature uses file submission for assignment as opposed to the AtriumED feature (https://github.com/markwk/atriumed_assignments), which uses Drupal's node revision system for text based submissions. 
+
+## Note:
+* Ideally the assignment and homework features should be combined to offer two alternative assignment submission styles (and perhaps enhanced with others like image galleries). 
+* For now, I went with the easiest solution to test this two approaches. 
