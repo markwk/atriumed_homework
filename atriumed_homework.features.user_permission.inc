@@ -27,8 +27,9 @@ function atriumed_homework_user_default_permissions() {
     'name' => 'attach filedrop to node',
     'roles' => array(
       '0' => 'administrator',
-      '1' => 'manager',
-      '2' => 'teacher',
+      '1' => 'authenticated user',
+      '2' => 'manager',
+      '3' => 'teacher',
     ),
   );
 
