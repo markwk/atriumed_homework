@@ -105,7 +105,7 @@ function atriumed_homework_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'form_build_id_homework';
-  $strongarm->value = 'form-56d2ff36802aa2bc6c894dc113ece149';
+  $strongarm->value = 'form-761358660ec60cd351b08c5e9be01446';
   $export['form_build_id_homework'] = $strongarm;
 
   $strongarm = new stdClass;
@@ -222,6 +222,13 @@ function atriumed_homework_strongarm() {
     ),
   );
   $export['nodeformscols_field_placements_homework_default'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'og_content_type_usage_homework';
+  $strongarm->value = 'group_post_standard';
+  $export['og_content_type_usage_homework'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
